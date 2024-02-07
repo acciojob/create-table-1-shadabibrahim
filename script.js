@@ -5,7 +5,7 @@ function insert_Row() {
   let td2 =document.createElement('td');
 	td1.innerText = "New Cell1";
 	newRow.appendChild(td1);
-	td2.innerText = "New Cell2";
+	td2.innerText = "";
 	newRow.appendChild(td2);
 
   let table = document.getElementById("sampleTable");
